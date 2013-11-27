@@ -3,7 +3,7 @@
         "This file locks the dependencies of your project to a known state",
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
     ],
-    "hash": "e55788a32156757e644392bf4abdced2",
+    "hash": "6cb0350713e8fcd744077dfd090b27ad",
     "packages": [
         {
             "name": "ajshort/silverstripe-gridfieldextensions",
@@ -11,12 +11,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/ajshort/silverstripe-gridfieldextensions.git",
-                "reference": "56422aede25bc61c69f47d9667b50cd5fe567285"
+                "reference": "5eec0f70b456d797a5e46b19b3c3aac597cb3259"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ajshort/silverstripe-gridfieldextensions/zipball/56422aede25bc61c69f47d9667b50cd5fe567285",
-                "reference": "56422aede25bc61c69f47d9667b50cd5fe567285",
+                "url": "https://api.github.com/repos/ajshort/silverstripe-gridfieldextensions/zipball/5eec0f70b456d797a5e46b19b3c3aac597cb3259",
+                "reference": "5eec0f70b456d797a5e46b19b3c3aac597cb3259",
                 "shasum": ""
             },
             "require": {
@@ -46,7 +46,7 @@
                 "gridfield",
                 "silverstripe"
             ],
-            "time": "2013-11-14 12:43:38"
+            "time": "2013-11-22 04:19:50"
         },
         {
             "name": "bummzack/sortablefile",
@@ -201,12 +201,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/silverstripe/silverstripe-cms.git",
-                "reference": "e444b359ec3f38a29e59a11677ee5228773db228"
+                "reference": "68044615390c92f4fd1c18482d6f501fb3b65097"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/silverstripe/silverstripe-cms/zipball/e444b359ec3f38a29e59a11677ee5228773db228",
-                "reference": "e444b359ec3f38a29e59a11677ee5228773db228",
+                "url": "https://api.github.com/repos/silverstripe/silverstripe-cms/zipball/68044615390c92f4fd1c18482d6f501fb3b65097",
+                "reference": "68044615390c92f4fd1c18482d6f501fb3b65097",
                 "shasum": ""
             },
             "require": {
@@ -240,7 +240,7 @@
                 "cms",
                 "silverstripe"
             ],
-            "time": "2013-11-15 13:44:39"
+            "time": "2013-11-22 19:49:37"
         },
         {
             "name": "silverstripe/framework",
@@ -248,12 +248,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/silverstripe/silverstripe-framework.git",
-                "reference": "be99d1532bbeab34e797bf100335d49b5aa337f4"
+                "reference": "305fea816323362658ba5092177e7737392724dc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/silverstripe/silverstripe-framework/zipball/be99d1532bbeab34e797bf100335d49b5aa337f4",
-                "reference": "be99d1532bbeab34e797bf100335d49b5aa337f4",
+                "url": "https://api.github.com/repos/silverstripe/silverstripe-framework/zipball/305fea816323362658ba5092177e7737392724dc",
+                "reference": "305fea816323362658ba5092177e7737392724dc",
                 "shasum": ""
             },
             "require": {
@@ -286,7 +286,7 @@
                 "framework",
                 "silverstripe"
             ],
-            "time": "2013-11-18 20:09:59"
+            "time": "2013-11-22 19:55:56"
         },
         {
             "name": "silverstripe/iframe",
@@ -324,75 +324,22 @@
             "time": "2013-10-29 23:00:12"
         },
         {
-            "name": "silverstripe/translatable",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/silverstripe/silverstripe-translatable.git",
-                "reference": "06ab7c9084a2ff2d2ec4518b157d2a2063838acd"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/silverstripe/silverstripe-translatable/zipball/06ab7c9084a2ff2d2ec4518b157d2a2063838acd",
-                "reference": "06ab7c9084a2ff2d2ec4518b157d2a2063838acd",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=5.3.2",
-                "silverstripe/cms": "~3.1",
-                "silverstripe/framework": "~3.1"
-            },
-            "require-dev": {
-                "silverstripe/mssql": "*",
-                "silverstripe/postgresql": "*",
-                "silverstripe/sqlite3": "*"
-            },
-            "type": "silverstripe-module",
-            "extra": {
-                "screenshots": [
-                    "http://www.silverstripe.org/assets/Uploads/translatable4-small.png"
-                ]
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "BSD-3-Clause"
-            ],
-            "authors": [
-                {
-                    "name": "Ingo Schommer",
-                    "email": "ingo@silverstripe.com",
-                    "homepage": "http://chillu.com",
-                    "role": "tech-lead"
-                }
-            ],
-            "description": "Allows translation of DataObject and SiteTree records into multiple languages ",
-            "homepage": "https://github.com/silverstripe/silverstripe-translatable/",
-            "keywords": [
-                "cms",
-                "globalization",
-                "i18n",
-                "localization",
-                "silverstripe"
-            ],
-            "time": "2013-11-14 13:37:24"
-        },
-        {
             "name": "silverstripe/userforms",
             "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/silverstripe/silverstripe-userforms.git",
-                "reference": "ab6e0970b7f4c8ad97d62d3a8e66b1356b240874"
+                "reference": "d3c558f579e04b925529157ffaee19cc587c88e2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/silverstripe/silverstripe-userforms/zipball/ab6e0970b7f4c8ad97d62d3a8e66b1356b240874",
-                "reference": "ab6e0970b7f4c8ad97d62d3a8e66b1356b240874",
+                "url": "https://api.github.com/repos/silverstripe/silverstripe-userforms/zipball/d3c558f579e04b925529157ffaee19cc587c88e2",
+                "reference": "d3c558f579e04b925529157ffaee19cc587c88e2",
                 "shasum": ""
             },
             "require": {
-                "silverstripe/cms": "~3.1",
-                "silverstripe/framework": "~3.1"
+                "silverstripe/cms": ">=3.1.0",
+                "silverstripe/framework": ">=3.1.0"
             },
             "type": "silverstripe-module",
             "notification-url": "https://packagist.org/downloads/",
@@ -411,7 +358,7 @@
                 "silverstripe",
                 "userforms"
             ],
-            "time": "2013-11-13 05:51:09"
+            "time": "2013-11-26 05:21:27"
         },
         {
             "name": "silverstripe/versionedfiles",

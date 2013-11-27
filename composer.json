@@ -9,7 +9,6 @@
 	  	  "ajshort/silverstripe-gridfieldextensions": "*",
 		    "silverstripe/accessibility": "*",
 		    "silverstripe/iframe": "*",
-		    "silverstripe/translatable": "*",
 		    "silverstripe/userforms": "*",
 		    "silverstripe/versionedfiles": "*",
 		    "silverstripe/versionfeed": "*"
