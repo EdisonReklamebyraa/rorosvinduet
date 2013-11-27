@@ -214,7 +214,7 @@ table {
   img {
     max-width: 100% !important;
   }
-  @page {
+  @page  {
     margin: 2cm .5cm;
   }
   p,
@@ -556,8 +556,10 @@ dd {
   .dl-horizontal dd:after {
     content: " ";
     /* 1 */
+  
     display: table;
     /* 2 */
+  
   }
   .dl-horizontal dd:after {
     clear: both;
@@ -566,8 +568,10 @@ dd {
   .dl-horizontal dd:after {
     content: " ";
     /* 1 */
+  
     display: table;
     /* 2 */
+  
   }
   .dl-horizontal dd:after {
     clear: both;
@@ -680,8 +684,10 @@ pre code {
 .container:after {
   content: " ";
   /* 1 */
+
   display: table;
   /* 2 */
+
 }
 .container:after {
   clear: both;
@@ -690,8 +696,10 @@ pre code {
 .container:after {
   content: " ";
   /* 1 */
+
   display: table;
   /* 2 */
+
 }
 .container:after {
   clear: both;
@@ -704,8 +712,10 @@ pre code {
 .row:after {
   content: " ";
   /* 1 */
+
   display: table;
   /* 2 */
+
 }
 .row:after {
   clear: both;
@@ -714,8 +724,10 @@ pre code {
 .row:after {
   content: " ";
   /* 1 */
+
   display: table;
   /* 2 */
+
 }
 .row:after {
   clear: both;
@@ -1597,6 +1609,7 @@ input[type="checkbox"] {
   margin: 4px 0 0;
   margin-top: 1px \9;
   /* IE8-9 */
+
   line-height: normal;
 }
 input[type="file"] {
@@ -1878,8 +1891,10 @@ textarea.input-lg {
 .form-horizontal .form-group:after {
   content: " ";
   /* 1 */
+
   display: table;
   /* 2 */
+
 }
 .form-horizontal .form-group:after {
   clear: both;
@@ -1888,8 +1903,10 @@ textarea.input-lg {
 .form-horizontal .form-group:after {
   content: " ";
   /* 1 */
+
   display: table;
   /* 2 */
+
 }
 .form-horizontal .form-group:after {
   clear: both;
@@ -3055,8 +3072,10 @@ input[type="button"].btn-block {
 .btn-toolbar:after {
   content: " ";
   /* 1 */
+
   display: table;
   /* 2 */
+
 }
 .btn-toolbar:after {
   clear: both;
@@ -3065,8 +3084,10 @@ input[type="button"].btn-block {
 .btn-toolbar:after {
   content: " ";
   /* 1 */
+
   display: table;
   /* 2 */
+
 }
 .btn-toolbar:after {
   clear: both;
@@ -3170,8 +3191,10 @@ input[type="button"].btn-block {
 .btn-group-vertical > .btn-group:after {
   content: " ";
   /* 1 */
+
   display: table;
   /* 2 */
+
 }
 .btn-group-vertical > .btn-group:after {
   clear: both;
@@ -3180,8 +3203,10 @@ input[type="button"].btn-block {
 .btn-group-vertical > .btn-group:after {
   content: " ";
   /* 1 */
+
   display: table;
   /* 2 */
+
 }
 .btn-group-vertical > .btn-group:after {
   clear: both;
@@ -3382,8 +3407,10 @@ textarea.input-group-sm > .input-group-btn > .btn {
 .nav:after {
   content: " ";
   /* 1 */
+
   display: table;
   /* 2 */
+
 }
 .nav:after {
   clear: both;
@@ -3392,8 +3419,10 @@ textarea.input-group-sm > .input-group-btn > .btn {
 .nav:after {
   content: " ";
   /* 1 */
+
   display: table;
   /* 2 */
+
 }
 .nav:after {
   clear: both;
@@ -3615,8 +3644,10 @@ textarea.input-group-sm > .input-group-btn > .btn {
 .navbar:after {
   content: " ";
   /* 1 */
+
   display: table;
   /* 2 */
+
 }
 .navbar:after {
   clear: both;
@@ -3625,8 +3656,10 @@ textarea.input-group-sm > .input-group-btn > .btn {
 .navbar:after {
   content: " ";
   /* 1 */
+
   display: table;
   /* 2 */
+
 }
 .navbar:after {
   clear: both;
@@ -3640,8 +3673,10 @@ textarea.input-group-sm > .input-group-btn > .btn {
 .navbar-header:after {
   content: " ";
   /* 1 */
+
   display: table;
   /* 2 */
+
 }
 .navbar-header:after {
   clear: both;
@@ -3650,8 +3685,10 @@ textarea.input-group-sm > .input-group-btn > .btn {
 .navbar-header:after {
   content: " ";
   /* 1 */
+
   display: table;
   /* 2 */
+
 }
 .navbar-header:after {
   clear: both;
@@ -3674,8 +3711,10 @@ textarea.input-group-sm > .input-group-btn > .btn {
 .navbar-collapse:after {
   content: " ";
   /* 1 */
+
   display: table;
   /* 2 */
+
 }
 .navbar-collapse:after {
   clear: both;
@@ -3684,8 +3723,10 @@ textarea.input-group-sm > .input-group-btn > .btn {
 .navbar-collapse:after {
   content: " ";
   /* 1 */
+
   display: table;
   /* 2 */
+
 }
 .navbar-collapse:after {
   clear: both;
@@ -4247,8 +4288,10 @@ textarea.input-group-sm > .input-group-btn > .btn {
 .pager:after {
   content: " ";
   /* 1 */
+
   display: table;
   /* 2 */
+
 }
 .pager:after {
   clear: both;
@@ -4257,8 +4300,10 @@ textarea.input-group-sm > .input-group-btn > .btn {
 .pager:after {
   content: " ";
   /* 1 */
+
   display: table;
   /* 2 */
+
 }
 .pager:after {
   clear: both;
@@ -4721,8 +4766,10 @@ a.list-group-item.active:focus .list-group-item-text {
 .panel-body:after {
   content: " ";
   /* 1 */
+
   display: table;
   /* 2 */
+
 }
 .panel-body:after {
   clear: both;
@@ -4731,8 +4778,10 @@ a.list-group-item.active:focus .list-group-item-text {
 .panel-body:after {
   content: " ";
   /* 1 */
+
   display: table;
   /* 2 */
+
 }
 .panel-body:after {
   clear: both;
@@ -5090,8 +5139,10 @@ button.close {
 .modal-footer:after {
   content: " ";
   /* 1 */
+
   display: table;
   /* 2 */
+
 }
 .modal-footer:after {
   clear: both;
@@ -5100,8 +5151,10 @@ button.close {
 .modal-footer:after {
   content: " ";
   /* 1 */
+
   display: table;
   /* 2 */
+
 }
 .modal-footer:after {
   clear: both;
@@ -5532,8 +5585,10 @@ button.close {
 .clearfix:after {
   content: " ";
   /* 1 */
+
   display: table;
   /* 2 */
+
 }
 .clearfix:after {
   clear: both;
@@ -6229,8 +6284,7 @@ ul.nav li a.activeLi {
   width: 220px;
   display: block;
 }
-/* -- Tab-row -- */
-.tabContainer {
+/* -- Tab-row -- */.tabContainer {
   background: url('../img/bgSmallDark.png');
   border-top: 1px dashed DarkGrey;
   border-bottom: 1px solid DarkGrey;
@@ -6247,20 +6301,28 @@ ul.nav li a.activeLi {
 .tabRow {
   background: #c3c3c2;
   /* Old browsers */
+
   background: -moz-linear-gradient(top, #c3c3c2 0%, #afada9 100%);
   /* FF3.6+ */
+
   background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #c3c3c2), color-stop(100%, #afada9));
   /* Chrome,Safari4+ */
+
   background: -webkit-linear-gradient(top, #c3c3c2 0%, #afada9 100%);
   /* Chrome10+,Safari5.1+ */
+
   background: -o-linear-gradient(top, #c3c3c2 0%, #afada9 100%);
   /* Opera 11.10+ */
+
   background: -ms-linear-gradient(top, #c3c3c2 0%, #afada9 100%);
   /* IE10+ */
+
   background: linear-gradient(to bottom, #c3c3c2 0%, #afada9 100%);
   /* W3C */
+
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#c3c3c2', endColorstr='#afada9', GradientType=0);
   /* IE6-8 */
+
   min-height: 300px;
 }
 .nav-tabs.nav-justified > .active > a,
@@ -6349,14 +6411,14 @@ aside ul li:first-child {
 }
 .txtcolumns {
   -moz-column-count: 2;
-  /* Firefox */
   -webkit-column-count: 2;
-  /* Safari and Chrome */
   column-count: 2;
   -moz-column-gap: 80px;
   /* Firefox */
+
   -webkit-column-gap: 80px;
   /* Safari and Chrome */
+
   column-gap: 80px;
 }
 .img-rounded p {
@@ -6735,4 +6797,12 @@ footer ul li a.mail {
   .karrusell {
     height: 120px;
   }
+}
+.tinyContent ul li {
+  background: url("../img/checkmark.png") no-repeat 0 50%;
+  padding-left: 30px;
+}
+.tinyContent ul {
+  list-style-type: none;
+  padding: 0;
 }
