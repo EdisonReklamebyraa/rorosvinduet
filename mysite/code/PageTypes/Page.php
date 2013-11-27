@@ -4,22 +4,25 @@ class Page extends SiteTree {
 	private static $db = array(
         "Subtitle" => "Text",
         "Introduction" => "Text",
+        "TeaserText" => "Text",        
 
         'LeftBlock' => 'HTMLText',
         'RightBlock' => 'HTMLText',
 
         "SideMenuTitle" => "Text",
         "SideMenuIntro" => "Text",
+        "ShowIntroInContainer" => "Boolean",
+        "LargeTopCarousel" => "Boolean",
 	);
 
 	private static $has_one = array(
-        'Packshot' => 'Image',
+        'TeaserImage' => 'Image',
 	);
 
 
   	private static $many_many= array (
         'RelatedPages' => "Page",
-        'CarouselImags' => 'Image',
+        'CarouselImages' => 'Image',
         'PageFiles' => 'File',   
         'ExtLinks' => "ExtLink"
     );
@@ -32,15 +35,17 @@ class Page extends SiteTree {
     
         $fields->addFieldToTab("Root.Main", new TextAreaField('Subtitle', _t('Page.SUBTITLE', 'Subtitle')), "Content");
         $fields->addFieldToTab("Root.Main", new TextAreaField('Introduction', _t('Page.INTRODUCTION', 'Introduction')), "Content");
+        $fields->addFieldToTab("Root.Main", new TextAreaField('TeaserText', _t('Page.TEASERTEXT', 'TeaserText')), "Content");
 
 
         $fields->addFieldToTab("Root.Main", HtmlEditorField::create('LeftBlock', _t('Page.LeftBlock', 'Left'))->setRows(12), "Content");
         $fields->addFieldToTab("Root.Main", HtmlEditorField::create('RightBlock', _t('Page.RightBlock', 'Right'))->setRows(12), "Content");
  
 
-        $fields->addFieldToTab("Root.Images", $image = UploadField::create('Packshot', _t('Product.packshot', 'Packshot')));       
-        $fields->addFieldToTab("Root.Images", $uploadField = SortableUploadField::create('CarouselImags', _t('Page.CarouselImags', 'Gallery Images')));
-        $uploadField->setFolderName('CarouselImags');
+        $fields->addFieldToTab("Root.Images", $image = UploadField::create('TeaserImage', _t('Page.TeaserImage', 'TeaserImage')));       
+        $fields->addFieldToTab("Root.Images", $uploadField = SortableUploadField::create('CarouselImages', _t('Page.CarouselImages', 'Gallery Images')));
+        $fields->addFieldToTab("Root.Images", new CheckBoxField('LargeTopCarousel', _t('Page.LARGETOPCAROUSEL', 'Use large top carousel'),'Gallery Images')); 
+        $uploadField->setFolderName('CarouselImages');
         $uploadField->setFileEditFields('getCustomFields');
         $uploadField->setAllowedExtensions(array('jpg', 'jpeg', 'png', 'gif'));
 
@@ -63,10 +68,16 @@ class Page extends SiteTree {
 
         return $fields;
     }
+    function getSettingsFields() { 
+      $fields = parent::getSettingsFields(); 
+      $fields->addFieldToTab("Root.Settings", new CheckBoxField('ShowIntroInContainer', 'Show intro in container?'),'ShowInSearch'); 
+      return $fields; 
+   }
+
 
  
     public function GalleryImages() {
-        return $this->CarouselImags()->sort('SortOrder');
+        return $this->CarouselImages()->sort('SortOrder');
     }
 
     
@@ -81,6 +92,24 @@ class Page extends SiteTree {
     public function NavChildren() {
         return $this->Children()->exclude('ClassName', "SubPage") ;
     }
+
+    public function TeaserChildren() {
+        return $this->Children()->filter("ShowIntroInContainer", true);
+    }
+    public function TeaserCols() {
+        $items = $this->TeaserChildren()->Count();
+        $cols = 12;
+        if ($items > 0)
+        {
+            $cols = 12 /$items;
+            if ($cols < 3){
+                $cols = 3;
+            }
+        }
+
+        return  $cols;
+    }
+
 
     public function SubPages() {
         return $this->Children()->filter('ClassName', "SubPage") ;
