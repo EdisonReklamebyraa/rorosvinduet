@@ -31,7 +31,7 @@ class Page extends SiteTree {
     );
 
 
-    private static $many_many_extraFields=array( 'GalleryImages'=>array('SortOrder'=>'Int'), 'Links'=>array('SortOrder'=>'Int'));
+    private static $many_many_extraFields=array( 'CarouselImages'=>array('SortOrder'=>'Int'), 'Links'=>array('SortOrder'=>'Int'));
 
 	function getCMSFields() {
 		$fields = parent::getCMSFields();
