@@ -6883,7 +6883,7 @@ hr {
 }
 .typography ul {
   overflow: hidden;
-  clear: both;
+  clear: left;
 }
 .typography .captionImage {
   clear: both;
