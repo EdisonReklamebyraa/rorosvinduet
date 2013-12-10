@@ -42,7 +42,6 @@
 					<ul class="nav nav-tabs nav-justified" id="myTab">
 					  <% loop SubPages %>
 					  	<li<% if First %> class="active"<% end_if %>><a href="#{$ID}">$MenuTitle.XML</a></li>
-
 					  <% end_loop %>
 					</ul>
 				</div><!-- container end -->
@@ -56,19 +55,16 @@
 								$Content
 							</div>
 							<div class="col-md-6">
-								<!--img class="righted" src="$" alt=".."-->
-								$TeaserImage
+								<% if $TeaserImage %>
+                  $TeaserImage
+                <% end_if  %>
+								
 							</div>
 						</div>
 
 						<% end_loop %>
 					</div>
 				</div><!-- container end -->
-			
-				
-				
-				
-				
 			</div><!-- tab -->
 	  
     <% include Footer  %>

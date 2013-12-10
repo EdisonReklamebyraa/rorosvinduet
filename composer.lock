@@ -329,12 +329,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/silverstripe/silverstripe-userforms.git",
-                "reference": "d3c558f579e04b925529157ffaee19cc587c88e2"
+                "reference": "972ee075f6cade3113d9625a857c5883ac1fa8dc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/silverstripe/silverstripe-userforms/zipball/d3c558f579e04b925529157ffaee19cc587c88e2",
-                "reference": "d3c558f579e04b925529157ffaee19cc587c88e2",
+                "url": "https://api.github.com/repos/silverstripe/silverstripe-userforms/zipball/972ee075f6cade3113d9625a857c5883ac1fa8dc",
+                "reference": "972ee075f6cade3113d9625a857c5883ac1fa8dc",
                 "shasum": ""
             },
             "require": {
@@ -358,7 +358,7 @@
                 "silverstripe",
                 "userforms"
             ],
-            "time": "2013-11-26 05:21:27"
+            "time": "2013-12-05 06:34:18"
         },
         {
             "name": "silverstripe/versionedfiles",
