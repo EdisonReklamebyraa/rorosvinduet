@@ -6881,6 +6881,10 @@ hr {
 .typography a img {
   border: none;
 }
+.typography ul {
+  overflow: hidden;
+  clear: both;
+}
 .typography .captionImage {
   clear: both;
 }
