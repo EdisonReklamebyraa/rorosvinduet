@@ -20,7 +20,7 @@
   <% if CarouselImages.Count > 1 %>
   <ol class="carousel-indicators">
 		<% loop CarouselImages %>
-		<li data-target="#InlineCarousel_{$ID}" data-slide-to="{$Pos(0)}" <% if First %>class="active"<% end_if %>></li>
+		<li data-target="#InlineCarousel_{$Top.ID}" data-slide-to="{$Pos(0)}" <% if First %>class="active"<% end_if %>></li>
 		<% end_loop %>
 	</ol>
   <% end_if  %>

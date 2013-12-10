@@ -5519,12 +5519,11 @@ button.close {
 }
 .carousel-indicators {
   position: absolute;
-  bottom: 10px;
+  padding: 10px 10px 0;
   z-index: 15;
   width: 100%;
   opacity: 0.6;
   filter: alpha(opacity=60);
-  padding-left: 0;
   list-style: none;
   text-align: center;
 }
@@ -6621,9 +6620,6 @@ aside ul ul li:first-child {
   margin: 0 auto;
   max-width: none;
   min-width: 0;
-  -webkit-box-shadow: 0px 0px 140px rgba(50, 50, 50, 0.5);
-  -moz-box-shadow: 0px 0px 140px rgba(50, 50, 50, 0.5);
-  box-shadow: 0px 0px 140px rgba(50, 50, 50, 0.5);
 }
 .tilbehorSlide .carousel-inner .image-wrapper {
   height: 300px;
