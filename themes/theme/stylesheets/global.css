@@ -6881,3 +6881,14 @@ hr {
 .typography a img {
   border: none;
 }
+.typography .captionImage {
+  clear: both;
+}
+.typography .captionImage.right {
+  float: right;
+  padding-left: 10px;
+}
+.typography .captionImage.left {
+  float: left;
+  padding-right: 10px;
+}
