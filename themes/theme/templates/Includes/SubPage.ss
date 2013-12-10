@@ -1,3 +1,4 @@
+<div class="stichline pushbottom"></div>		    		    		  
 <div class="tilbehorSection row">
 	<% if CarouselImages %>	
 	<div class="col-md-6">
@@ -14,4 +15,4 @@
 	</div>
 	<% end_if %>
 </div>
-<div class="stichline pushbottom"></div>		    		    		  
+
