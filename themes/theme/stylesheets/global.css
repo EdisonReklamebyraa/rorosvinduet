@@ -6885,6 +6885,13 @@ hr {
   overflow: hidden;
   clear: left;
 }
+.typography .clear {
+  overflow: hidden;
+  clear: both;
+}
+.typography .padded {
+  padding-bottom: 10px;
+}
 .typography .captionImage {
   clear: both;
 }
