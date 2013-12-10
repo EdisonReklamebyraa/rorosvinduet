@@ -30,6 +30,3 @@
     <a class="right carousel-control" href="#InlineCarousel_{$ID}" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
     <% end_if  %>
 </div>
-
-
-

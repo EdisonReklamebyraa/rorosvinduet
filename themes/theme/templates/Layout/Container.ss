@@ -1,6 +1,6 @@
 
 <div class="col-sm-12 col-md-9 content" >
-	<% if Level(1) %>
+	 <% if Level(1) %>
     <div class="breadcrumbs">
       $Breadcrumbs
     </div>
