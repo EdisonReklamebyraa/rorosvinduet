@@ -6887,7 +6887,7 @@ hr {
 }
 .typography .clear {
   overflow: hidden;
-  clear: both;
+  clear: left;
 }
 .typography .padded {
   padding-bottom: 10px;
