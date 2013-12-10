@@ -6892,6 +6892,9 @@ hr {
   float: left;
   padding-right: 10px;
 }
+.typography .captionImage img {
+  border-radius: 10px 10px 0 0 ;
+}
 .typography .captionImage .caption {
   font-size: 0.9em;
   text-align: center;
