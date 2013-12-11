@@ -4,6 +4,10 @@ class ContactsPage extends Page {
 
 	/** //--// **/
 
+	private static $db = array(
+        "GoogleMap" => "Text",
+	);
+
 
 	private static $many_many= array (
         'ContactGroups' => "ContactGroup",
@@ -22,7 +26,6 @@ class ContactsPage extends Page {
 		return $fields;
 	}
 
-
 	/** --//-- **/
 	
 	public function getCMSFields() {
@@ -34,10 +37,17 @@ class ContactsPage extends Page {
             $this->ContactGroups() ,
             GridFieldConfig_RelationEditor::create());
 
+
+
+
         $contactGroups->setModelClass('ContactGroup');
         $contactGroups->getConfig()->addComponent(new GridFieldOrderableRows('ManyManySort'));
 
         $fields->addFieldToTab('Root.ContactGroups', $contactGroups);
+
+
+        $fields->addFieldToTab("Root.Main", new TextField('GoogleMap', _t('ContactsPage.GoogleMap', 'GoogleMap')) );
+
 
         return $fields; 
     }
