@@ -9,6 +9,7 @@
 
 
 	<div class="contact">
+
 		<div class="clearfix contactInfo">
 		  <% include Introduction %>  
 		  <div class="typography">
@@ -16,9 +17,11 @@
 		    	$Content
 			</div>
 		</div>
+
 		<% loop ContactGroups %>
 			<% include ContactGroup %>  
 		<% end_loop %>
+
 	</div>
 </div>      
 

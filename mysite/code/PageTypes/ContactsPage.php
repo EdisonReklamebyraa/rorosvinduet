@@ -18,8 +18,6 @@ class ContactsPage extends Page {
         'ContactGroups' => array('ManyManySort' => 'Int'),    
     );
 
-
-
 	public function getGeneratedCMSFields() {
 		$fields = parent::getCMSFields();
 

@@ -19,5 +19,5 @@
 			$SiteConfig.FooterContact
 		</div>
 	</div><!-- container end -->
-	<div class="stichline whiteline"></div><p class="copyright">&copy; 2013 - <a href="http://isola.no">Isola AS</a></p>
+	<div class="stichline whiteline"></div><p class="copyright">  <a href="http://www.edisonmenlo.no/">Edison Menlo</a></p>
 </footer>

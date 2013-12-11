@@ -6700,7 +6700,7 @@ form button:active {
 footer {
   color: #ffffff;
   background: url('../img/blackLinen.png');
-  padding: 45px 0 100px 0;
+  padding: 20px 0 10px;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 0.9em;
   -moz-box-shadow: inset 0 5px 20px #323232;
@@ -6715,11 +6715,17 @@ footer ul {
 footer ul li {
   margin: 0 0 10px 0;
 }
+footer .whiteline {
+  margin: 10px 0;
+}
 footer a,
 footer a:visited {
   color: #ffffff;
-  text-transform: uppercase;
   padding: 0 0 3px 0;
+}
+footer li > a,
+footer li > a:visited {
+  text-transform: uppercase;
   border-bottom: 1px dashed white;
 }
 footer ul li a:hover,
