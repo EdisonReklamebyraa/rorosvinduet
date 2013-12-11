@@ -6883,6 +6883,14 @@ footer ul li a.mail {
   .thumbnail .stichCircle {
     width: auto;
   }
+  .logoLine {
+    position: absolute;
+  }
+  #Nav.affix {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
   .affix.headroom--pinned {
     opacity: 1;
   }

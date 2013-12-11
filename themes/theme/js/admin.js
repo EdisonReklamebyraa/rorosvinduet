@@ -15,7 +15,7 @@ $(document).ready(function() {
 	      lineRatio : 1.4
 	  });
 
-	  $('#nav-wrapper').height($("#Nav").height());
+	//  $('#nav-wrapper').height($("#Nav").height());
 
 	  $('#Nav, .logoLine').affix({
         offset: {
@@ -28,7 +28,6 @@ $(document).ready(function() {
     })
 
 
-
-    $("#Nav, .logoLine").headroom();
+    $("#Nav").headroom();
 
 })
