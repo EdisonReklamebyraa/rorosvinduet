@@ -5,3 +5,6 @@
 <script src="$Themedir/js/bootstrap.min.js"></script>
 <script src="$Themedir/js/flowtype.js"></script>
 <script src="$Themedir/js/admin.js"></script>
+
+<script src="$Themedir/js/headroom.min.js"></script>
+<script src="$Themedir/js/jQuery.headroom.min.js"></script>  

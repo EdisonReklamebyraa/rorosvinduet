@@ -18,7 +18,7 @@
 
           <% loop Menu(1) %>
           <% if $NavChildren %>
-          <li class="dropdown">
+          <li class="dropdown $LinkingMode">
             <a href="$Link" class="dropdown-toggle disabled  $LinkingMode" >
               $MenuTitle.XML <b class="caret"></b>
             </a>
@@ -30,7 +30,7 @@
               <% if $NavChildren %>
               <ul class="dropdown-menu">
                 <% loop $NavChildren %>
-                <li>
+                <li class="$LinkingMode">
                   <a href="$Link">$MenuTitle.XML</a>
                 </li>
                 <% end_loop %>
