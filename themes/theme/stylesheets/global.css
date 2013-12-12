@@ -6247,6 +6247,9 @@ input.action {
   padding: 0;
   margin: 0 0 10px 0;
 }
+.requiredField {
+  color: #a02226;
+}
 /* -- Carousel-row -- */
 #myCarousel {
   margin: 0 0 0 0;
