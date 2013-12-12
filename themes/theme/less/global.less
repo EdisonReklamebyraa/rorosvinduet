@@ -245,7 +245,7 @@ input.action{
     margin: 0 0 10px 0;
 }
 
-.requiredField {
+.requiredField label{
     color: @red;    
 }
 
@@ -997,33 +997,71 @@ a:target{
         }
 
     }
+
+
     .logoLine{
-        position: absolute;         
-    }
-
-    #Nav.affix {
-        position: fixed;
-        top: 0;
-        width: 100%;
-    }
-
-    .affix.headroom--pinned{
-
-        opacity:1;
-        
-    }
-	  
-    .affix.headroom--unpinned{
-
-        opacity:0
-    }
-    .affix{
-        -moz-transition: opacity 0.1s ease-in-out;
+        position: fixed;   
+         -moz-transition: opacity 0.1s ease-in-out;
         -o-transition: opacity 0.1s ease-in-out;
         -ms-transition: opacity 0.1s ease-in-out;
         transition: opacity 0.1s ease-in-out;
+
+        &.affix.headroom--pinned {
+
+            opacity:1;
+            
+        }
+	      
+        &.affix.headroom--unpinned  {
+
+            opacity:0
+        }
     }
 
+    #Nav.affix {
+        position: relative;
+        width: auto;
+    }
+
+    #Nav .navbar-toggle{
+
+        position: fixed; 
+        top: 20px;
+        right: 0;
+        z-index: 2000;
+          -moz-transition: opacity 0.1s ease-in-out;
+        -o-transition: opacity 0.1s ease-in-out;
+        -ms-transition: opacity 0.1s ease-in-out;
+        transition: opacity 0.1s ease-in-out;
+        
+    }
+
+    .navbar{
+        min-height: 0;
+
+        margin: 0;
+        width: 100%;
+        
+
+    }
+
+    .contentContainer{
+        margin-top: 20px;
+    }
+
+    .navWrap {
+        height: auto;
+    }
+    
+    .affix.headroom--pinned  .navbar-toggle{
+        opacity:1;        
+    }
+	  
+    .affix.headroom--unpinned  .navbar-toggle{
+
+        opacity:0
+    }
+ 
 }
 
 .typography ul li {

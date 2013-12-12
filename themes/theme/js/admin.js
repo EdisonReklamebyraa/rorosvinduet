@@ -28,6 +28,12 @@ $(document).ready(function() {
     })
 
 
-    $("#Nav").headroom();
+    $("#Nav, .logoLine").headroom();
+
+    $(".navbar-toggle").click(function() {
+
+        $("html, body").animate({ scrollTop: 50}, "fast");
+
+    });
 
 })
