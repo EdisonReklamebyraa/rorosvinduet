@@ -56,6 +56,8 @@ html.swipebox {
   width: auto;
   height: auto;
   vertical-align: middle;
+  background: #FFF;
+  
 }
 
 #swipebox-slider .slide .swipebox-video-container {
