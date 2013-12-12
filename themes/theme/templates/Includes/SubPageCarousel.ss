@@ -6,7 +6,9 @@
 	  <% loop GalleryImages  %>
 		<div class="item <% if First %>active<% end_if %>">
 			<div class="image-wrapper">
-				$SetRatioSize( 380, 300 )
+        <a  class="swipebox" href="$URL" title="$Title"  rel="gallery-$Up.ID">
+			  	$SetRatioSize( 380, 300 )
+        </a>
 			</div>
 			<div class="container">
 				<div class="carousel-caption2">

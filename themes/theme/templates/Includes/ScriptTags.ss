@@ -8,3 +8,4 @@
 
 <script src="$Themedir/js/headroom.min.js"></script>
 <script src="$Themedir/js/jQuery.headroom.min.js"></script>  
+<script src="$Themedir/js/jquery.swipebox.min.js"></script>  

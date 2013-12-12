@@ -11,6 +11,8 @@
     <link href='http://fonts.googleapis.com/css?family=Ropa+Sans' rel='stylesheet' type='text/css'>
     <link href="$Themedir/stylesheets/global.css" rel="stylesheet" media="screen">
 
+    <link rel="stylesheet" href="$Themedir/stylesheets/swipebox.css">
+
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
         <script src="$Themedir/js/html5shiv.js"></script>
