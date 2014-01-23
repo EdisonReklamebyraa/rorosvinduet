@@ -6481,17 +6481,25 @@ aside ul li:first-child {
   margin: 20px 0 0 0;
 }
 .person {
-  min-height: 180px;
+  overflow: hidden;
+}
+.person.column-1 {
+  clear: both;
 }
 .contactInfo .person {
   max-height: 300px;
 }
 .person,
-.person div {
-  padding: 0 15px 0 0;
+.person .col-md-4 {
+  padding: 0 15px 15px 0;
+}
+.person .txt {
+  min-width: 150px;
+  overflow: hidden;
 }
 .person p {
   line-height: 1.5em;
+  margin-top: 0px;
 }
 .person .ital {
   font-size: 0.8em;
@@ -6505,7 +6513,7 @@ aside ul li:first-child {
   max-width: 100px;
 }
 .person .name {
-  margin: 15px 0 0 0;
+  margin: 5px 0 0 0;
   font-weight: bold;
 }
 .contact .pushtop {
@@ -6627,7 +6635,7 @@ aside ul ul li:first-child {
 .tilbehorSlide .carousel-inner img {
   margin: 0 auto;
   border-radius: 0;
-  max-width: none;
+  max-width: 100%;
   min-width: 0;
 }
 .tilbehorSlide .carousel-inner .image-wrapper {
@@ -6780,7 +6788,7 @@ a:target {
   .contact .col-md-4,
   .contact .col-md-8 {
     float: left;
-    margin: 0 20px 0 0;
+    margin: 0 15px 0 0;
   }
   .contact .stichline {
     margin: 0;

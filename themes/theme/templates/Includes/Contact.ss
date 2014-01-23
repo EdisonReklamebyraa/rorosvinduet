@@ -4,7 +4,7 @@
 	<img src="$URL" alt="$Title" class="img-rounded"/>
 <% end_with %>
 </div>
-<div class="col-md-8">
+<div class="txt">
 <% end_if %>
 
 <% if Name %><p class="name">$Name</p><% end_if %>

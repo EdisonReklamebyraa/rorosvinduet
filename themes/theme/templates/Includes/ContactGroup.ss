@@ -5,7 +5,7 @@
 		<p>$Introduction</p>
 	<% end_if %>
 	<% loop Contacts %>
-	<div class="col-md-6 person">
+	<div class="col-md-6 column-{$Modulus(2)} person">
 		<% include Contact %>
 	</div>
 	<% end_loop %>
